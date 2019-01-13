@@ -11,7 +11,6 @@ c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Host.SystemWeb.dll
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Cookies.dll
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.dll
-c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Facebook.dll
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.dll
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.dll
@@ -44,7 +43,6 @@ c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.xml
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Host.SystemWeb.xml
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.xml
-c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Facebook.xml
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Cookies.xml
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 c:\users\scs-it\documents\visual studio 2013\Projects\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
@@ -75,3 +73,9 @@ C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web
 C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\bin\AutoMapper.xml
+C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
+C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.RentalAdded.resources
+C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.RentalAnnotation.resources
+C:\Users\SCS-IT\documents\visual studio 2013\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingAvailableInMovie.resources

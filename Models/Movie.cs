@@ -18,8 +18,8 @@ namespace Vidly.Models
         public DateTime AddedTime { get; set; }
         [Display(Name = "Number In Stock")]
         [Range(1,20)]
-        [Min18IfAMember]
         public int Stock { get; set; }
+        public byte NumberAvailable { get; set; }
         public Genres Genre { get; set; }
         public byte GenreId { get; set; }
     }

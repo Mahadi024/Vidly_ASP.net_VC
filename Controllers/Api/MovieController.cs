@@ -21,10 +21,16 @@ namespace Vidly.Controllers.Api
             _context=new ApplicationDbContext();
         }
         //GET api/movies
-        public IEnumerable<MovieDto> GetMovies()
+        public IEnumerable<MovieDto> GetMovies(string query = null)
         {
-           return _context.Movies.
-                Include(m=>m.Genre).
+            var moviesQuery = _context.Movies
+                .Include(m => m.Genre)
+                .Where(m => m.NumberAvailable > 0);
+
+            if (!String.IsNullOrWhiteSpace(query))
+                moviesQuery = moviesQuery.Where(m => m.Name.Contains(query));
+
+           return moviesQuery.
                 ToList().
                 Select(Mapper.Map<Movie, MovieDto>);
           
@@ -39,10 +45,11 @@ namespace Vidly.Controllers.Api
         }
         //POST api/customers
         [HttpPost]
-        public IHttpActionResult CreatMovie(MovieDto movieDto)
+        public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
+
             var movie = Mapper.Map<MovieDto, Movie>(movieDto);
             _context.Movies.Add(movie);
             _context.SaveChanges();
@@ -72,7 +79,6 @@ namespace Vidly.Controllers.Api
             var movieInDb = _context.Movies.SingleOrDefault(m => m.Id == id);
             if(movieInDb==null)
                 throw new HttpResponseException(HttpStatusCode.NotFound);
-
             _context.Movies.Remove(movieInDb);
             _context.SaveChanges();
             return movieInDb;

@@ -22,7 +22,6 @@ namespace Vidly.ViewModel
         public DateTime? ReleaseDate { get; set; }
         [Display(Name = "Stock In Number")]
         [Required]
-        [Min18IfAMember]
         [Range(1,20)]
         public int? Stock { get; set; }
         
